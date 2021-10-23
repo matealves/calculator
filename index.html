@@ -64,7 +64,14 @@
             margin: 5px;
             text-align: right;
             padding: 5px;
-        }        
+        } 
+
+        p {
+            max-width: 14ch;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }              
 
     </style>
  
@@ -73,7 +80,7 @@
     <div class="fundo">
         <div class="calculadora">
             <h1>Mate c+</h1>
-            <p id="resultado"></p>
+                <p id="resultado"></p>
             <table>
                     <td><button class="botao" onclick="clean()">c</button></td>
                     <td><button class="botao" onclick="back()">	&#8592;</button></td>
