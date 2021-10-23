@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script type="text/javascript" src="script.js"></script>
     <title>Calculadora</title>
 
-    <style>
+   <style> 
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
 
@@ -23,8 +24,8 @@
             height: 100vh;
             color: #2e2b2b;
             font-weight: 400;
-        }
-
+        } 
+ 
         .calculadora {
             position: absolute;
             background-color: rgba(243, 219, 219, 0.8);
@@ -37,7 +38,7 @@
 
         h1 {
             padding: 10px;
-        }
+        } 
 
         .botao {
             height: 50px;
@@ -48,7 +49,7 @@
             color: #ffffff;
             border: none;
             margin: 3px;
-        }
+        } 
 
         .botao:hover {
             background-color: black;
@@ -63,10 +64,10 @@
             margin: 5px;
             text-align: right;
             padding: 5px;
-        }       
+        }        
 
     </style>
-
+ 
 </head>
 <body>
     <div class="fundo">
@@ -108,31 +109,5 @@
         </div>
     </div>
     
-    <script>
-        function insert(num) {
-         var numero = document.getElementById('resultado').innerHTML;
-         document.getElementById('resultado').innerHTML = numero + num;
-        }
-
-        function clean() {
-            document.getElementById('resultado').innerHTML = "";
-        }
-
-        function back() {
-        var resultado = document.getElementById('resultado').innerHTML;
-            document.getElementById('resultado').innerHTML = resultado.substring(0, resultado.length -1);
-        }
-
-        function calcular(){
-        var resultado = document.getElementById('resultado').innerHTML;
-        if(resultado){
-            document.getElementById('resultado').innerHTML = eval(resultado);
-        } else {
-            document.getElementById('resultado').innerHTML = "";
-        }
-        }
-
-    </script>
-
 </body>
 </html>
