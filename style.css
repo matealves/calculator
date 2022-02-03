@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Poppins;
+        }
+        
+        .fundo {
+            text-align: center;
+            background-color: rgb(231, 231, 231);
+            height: 100vh;
+            color: #2e2b2b;
+            font-weight: 400;
+            display: flex;
+        } 
+ 
+        .calculadora {
+            position: absolute;
+            background-color: rgb(250, 250, 250);
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            border-radius: 15px;
+            padding: 15px;
+            box-shadow: 5px 4px 8px #88888821;
+        }
+
+        h1 {
+            padding: 10px;
+        } 
+
+        .botao {
+            height: 50px;
+            width: 50px;
+            border-radius: 4px;
+            font-size: 20px;
+            cursor: pointer;
+            background-color: #ffffff;
+            color: #2b2b2b;
+            border: none;
+            margin: 3px;
+            box-shadow: 1px 1px 2px #88888823;
+        }
+
+        .botaoi {
+            height: 50px;
+            width: 50px;
+            border-radius: 4px;
+            font-size: 20px;
+            cursor: pointer;
+            background-color: #515ce9;
+            color: #ffffff;
+            border: none;
+            margin: 3px;
+            box-shadow: 1px 1px 2px #88888823;
+        } 
+
+        .botao:active {
+            background-color: rgb(247, 247, 247);
+            color: rgb(128, 128, 128);
+        }
+
+        .botaoi:active {
+            background-color: #757ce2;
+        }
+
+        #resultado {
+            background-color: rgb(250, 250, 250);
+            color: black;
+            font-size: 38px;
+            width: 212px;
+            height: 85px;
+            margin: 5px;
+            text-align: right;
+            margin-top: 25px;
+            padding: 3px;
+        } 
+
+        .calculadora p {
+            max-width: 15ch;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }    
+        
+        footer {
+            /*background-color: rgb(255, 255, 255);*/
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            font-size: 10px;
+            height: 50px;
+            width: 100%;
+            position: fixed;
+            bottom:0;
+            left:0;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        footer a:hover{
+            color: brown;
+        }
