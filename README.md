@@ -13,8 +13,13 @@
 </h3>
 
 <h4 align = "center">
-	✅ Calculadora - Versão 1.0 ✅
+	Calculadora - Versão 1.7 ✅
 </h4>
+<br>
+<h2 align = "center">
+<a href="https://htmlpreview.github.io/?https://github.com/matealves/calculator/blob/main/index.html" target="_blank">Pré-vizualização - clique aqui!
+</a> 
+</h2>
 
 <br>
 
