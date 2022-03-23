@@ -1,5 +1,5 @@
 <p align = "center">
-  <img src = "calc_readme.png" alt = "mockup" />
+  <img src = "calculator_readme.png" alt = "mockup" />
 </p>
 
 <br>
