@@ -13,7 +13,7 @@
 </h3>
 
 <h4 align = "center">
-	Calculadora - Versão 1.9 ✅
+	Calculadora - Versão 2.0 ✅
 </h4>
 <br>
 <h3 align = "center">
