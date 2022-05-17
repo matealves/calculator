@@ -13,7 +13,7 @@
 </h3>
 
 <h4 align = "center">
-	Calculadora - Versão 2.2 ✅
+	Calculadora - Versão 2.0 completa ✅
 </h4>
 <br>
 <h3 align = "center">
@@ -33,7 +33,7 @@
 
 <div id="visao">
 <h1>  Visão geral </h1>
-Essa calculadora, possui um layout simples e moderno, com interações ao clicar nos botões e limite de caracteres a ser exibido na tela. No momento funciona apenas com cliques do mouse, sendo possível limpar a tela com o botão "C" e apagar apenas um número com a seta para a esquerda.
+Essa calculadora, possui um layout simples e moderno, com interações ao clicar nos botões e limite de caracteres a ser exibido na tela. Foi adicionado a opção de realizar calculos através do teclado, trabalhando com eventos key no JavaScript.
 
 </div>
 <br>
