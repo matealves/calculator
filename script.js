@@ -116,13 +116,8 @@ document.addEventListener("keyup", function (event) {
       zero.click();
       break;
     case ".":
-      ponto.click();
-      break;
     case ",":
       ponto.click();
-      break;
-    case "=":
-      igual.click();
       break;
     case "Enter":
       igual.click();
